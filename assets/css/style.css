@@ -109,19 +109,28 @@ body, h1, h2, h3, p, ul, li {
     color: #ffffff;
     text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
   }
+  .work-container{
+    display:flex;
+    flex-wrap: wrap;
+  }
   
   /* Work Item Styles */
   .work-item {
-    margin-bottom: 2%;
+    margin-bottom: 2%;  
+    width:45%;
+
   }
   
-  .work-item img {
+  .work-img {
     max-width: 100%;
     height: auto;
     border: 1px solid #ddd; /* Add a border around the images */
   }
   
-  .work-item .larger-img {
+  .work-item figure a{
+ 
+  }
+  .larger-img {
     width: 100%; /* width for the larger image */
     max-width: 100%;
     height: auto;
